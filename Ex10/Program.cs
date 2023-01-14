@@ -37,12 +37,12 @@ int IndexOf(int[] collection, int find)
     return position;
 }    
 
-double inputValue()                                                //Метод проверки на дурака               
-{
-    double result;
-    while (!double.TryParse(Console.WriteLine(), out result));
-    return result;
-}
+// double inputValue()                                                //Метод проверки на дурака               
+// {
+//     double result;
+//     while (!double.TryParse(Console.WriteLine(), out result));
+//     return result;
+// }
 
 int pos = IndexOf(array, 4);
 Console.WriteLine(pos);
